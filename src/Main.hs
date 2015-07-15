@@ -2,7 +2,7 @@
 module Main where
 
 -------------------------------------------------------------------------------
-import              Data.Text                                   (pack)
+-- import              Data.ByteString.Char8               as B
 import              Text.ProtocolBuffers.TextMessage
 import              Text.ProtocolBuffers.Basic
 
@@ -26,4 +26,4 @@ main = do
                             }
         registerJSON = encode register
 
-    putStrLn $ show register
+    putStrLn $ show registerJSON
