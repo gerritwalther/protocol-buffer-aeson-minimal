@@ -1,0 +1,16 @@
+flags:
+  aeson:
+    old-locale: true
+packages:
+- '.'
+extra-deps:
+- SHA-1.6.4.2
+- aeson-0.9.0.1
+- attoparsec-0.13.0.1
+- base64-bytestring-1.0.0.1
+- blaze-builder-0.4.0.1
+- dlist-0.7.1.1
+- entropy-0.3.7
+- protocol-buffers-2.1.3
+- utf8-string-1
+resolver: ghc-7.8

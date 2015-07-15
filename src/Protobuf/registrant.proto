@@ -1,0 +1,3 @@
+message Registrant {
+    required string name = 1;
+}
